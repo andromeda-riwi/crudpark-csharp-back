@@ -9,4 +9,5 @@ public interface ITarifaService
     Task<TarifaCatalogo?> GetTarifaActivaAsync();
 
     Task<bool> SetTarifaActivaAsync(int tarifaId);
+    //Task<Tarifa?> UpdateTarifaAsync(int id, UpdateTarifaDto dto);
 }
